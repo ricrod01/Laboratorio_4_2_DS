@@ -1,0 +1,12 @@
+variable,tipo,descripcion,faltantes,porcentaje_faltante
+longitud,float64,"Longitud del centro del píxel (grados, EPSG:4326)",0,0.0
+latitud,float64,"Latitud del centro del píxel (grados, EPSG:4326)",0,0.0
+fecha,datetime64[ns],Fecha de adquisición de Sentinel-2,0,0.0
+lago,category,Lago al que pertenece la observación,0,0.0
+B03,float32,Reflectancia de banda verde,0,0.0
+B04,float32,Reflectancia de banda roja,0,0.0
+B05,float32,Reflectancia red-edge 1,0,0.0
+B08,float32,Reflectancia del infrarrojo cercano,0,0.0
+cyanobacteria_chla,float32,Índice continuo de cianobacteria/clorofila-a de la Parte I,0,0.0
+ndvi,float32,Índice normalizado de vegetación,0,0.0
+ndwi,float32,Índice normalizado de agua,0,0.0
